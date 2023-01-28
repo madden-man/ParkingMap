@@ -18,8 +18,10 @@ jobs:
       
     - name: 🔨 Build Project
       run: |
+        cd js/
         npm install
         npm run build
+        cd ../
     
     - name: FTP-Deploy-Action
       uses: SamKirkland/FTP-Deploy-Action@4.3.3
