@@ -1,0 +1,5 @@
+.eslintrc.json
+*.conf
+*.png
+*.svg
+*.jpg

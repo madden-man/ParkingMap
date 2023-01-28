@@ -1,0 +1,9 @@
+.cal {
+  margin: auto;
+  border: 2px solid black;
+  max-width: 48rem;
+}
+
+.cal__toolbar {
+  border-bottom: 2px ridge darkblue;
+}

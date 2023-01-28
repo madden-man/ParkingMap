@@ -1,0 +1,44 @@
+{
+  "name": "parking",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "wp-scripts build",
+    "check-engines": "wp-scripts check-engines",
+    "check-licenses": "wp-scripts check-licenses",
+    "format": "wp-scripts format",
+    "lint:css": "wp-scripts lint-style",
+    "lint:js": "wp-scripts lint-js",
+    "lint:md:docs": "wp-scripts lint-md-docs",
+    "lint:md:js": "wp-scripts lint-md-js",
+    "lint:pkg-json": "wp-scripts lint-pkg-json",
+    "packages-update": "wp-scripts packages-update",
+    "plugin-zip": "wp-scripts plugin-zip",
+    "start": "wp-scripts start",
+    "test:e2e": "wp-scripts test-e2e",
+    "test:unit": "wp-scripts test-unit-js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.19.6",
+    "@babel/eslint-parser": "^7.19.1",
+    "@trivago/prettier-plugin-sort-imports": "^3.4.0",
+    "@wordpress/eslint-plugin": "^13.4.0",
+    "@wordpress/prettier-config": "^2.3.0",
+    "@wordpress/scripts": "^24.4.0",
+    "babel-loader": "^8.2.5",
+    "eslint": "^8.26.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-react": "^7.31.10",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "prettier": "^2.7.1",
+    "react": "^17.0.2",
+    "typescript": "^4.8.4"
+  },
+  "dependencies": {
+    "@babel/preset-typescript": "^7.18.6",
+    "react-router": "^6.4.4",
+    "react-router-dom": "^6.4.4"
+  }
+}
