@@ -27,7 +27,7 @@ const render = (status: Status) => {
 const App: React.VFC = () => {
   const [clicks, setClicks] = React.useState<google.maps.LatLng[]>([]);
   const center = { lat: 39.7412549, lng: -104.9801503 };
-  const zoom = 11.1;
+  const zoom = 18.5;
 
   const onClick = (e: google.maps.MapMouseEvent) => {
     // avoid directly mutating state
