@@ -1,6 +1,6 @@
 import './index.scss';
 
-import App from './App';
+import App from './App.tsx';
 
 const { render } = wp.element; //we are using wp.element here!
 if (document.getElementById('root')) {
